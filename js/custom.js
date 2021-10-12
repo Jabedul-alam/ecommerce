@@ -12,8 +12,13 @@ $(function (){
      //banner slider js
      $('.banner_slider').slick({
         dots: true,
+        dotsClass:'banner_dots',
         infinite: true,
         speed: 500,
         fade: true,
+        autoplay: true,
+        autoplaySpeed:1500,
+        prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
+        nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
     })
 })
