@@ -21,4 +21,13 @@ $(function (){
         prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
         nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
     })
+    //slide
+      $('.clickable').on('click',function(){
+
+         $('.categories-dropdown-wrap').slideToggle(500,);
+         
+      
+
+      })
+   
 })
