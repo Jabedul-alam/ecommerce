@@ -651,7 +651,6 @@ form input {
     padding: 12px;
     width: 137px;
 }
-
 #featured .cat_slider_item{
     border-radius: 10px;
     transition: var(--tran-all-4s);
@@ -660,7 +659,6 @@ form input {
     margin-bottom: 20px;
  
 }
-
 #featured .catg_thum .cat_slider_item:hover{
     border-color:  var(--text-hlt-clr);
     box-shadow: 5px 5px 15px rgb(0 0 0 / 5%);
@@ -676,7 +674,6 @@ form input {
     line-height: 24px;
     color: var(--hlt-color);
 }
-
 #featured .feat_item_img{
     transition: var(--tran-all-4s);
     display: inline-block;
@@ -684,18 +681,12 @@ form input {
     margin-bottom: 10px;
     
 }
-
 #featured .feat_item_img:hover{
     transform: scale(1.1);
 }
-
-
 #featured .catg_thum .cat_slider_item h5{
     font-size: 16px;
 }
-
-
-
 .featured_arrow{
     top :-44px;
     right: 12px;
@@ -703,3 +694,53 @@ form input {
 .featured_arrow.fa-long-arrow-alt-left{
     right:65px;
 }
+/*featured section end*/
+/*product_banner section strat*/
+#product_banner{
+  margin-bottom: 25px;
+
+}
+#product_banner .pruduct_item{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+#product_banner .pruduct_item h3{
+    margin-bottom: 15px;
+    min-height: 100px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 60px 125px 0 40px;
+    transition: var(--tran-all-4s);
+
+}
+#product_banner .pruduct_item h3:hover{
+    transform: translatey(-5px);
+}
+#product_banner .pruduct_item a{
+    display: inline-block;
+    padding: 7px 8px 7px 12px;
+    font-size: 12px;
+    background-color: var(--hlt-color);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    transition:all linear .3s;
+    border-right: 8px solid transparent;
+
+
+}
+#product_banner .helper h3{
+    padding-bottom:30px ;
+}
+#product_banner .pruduct_item a:hover{
+    background-color: #FDC040;
+    
+}
+
+/*product_banner section end*/
