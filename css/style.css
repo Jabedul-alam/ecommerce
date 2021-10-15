@@ -647,9 +647,55 @@ form input {
  /*banner section end*/
 
 /*featured section strat*/
-.catg_thum{
+#featured .catg_thum{
     padding: 12px;
+    width: 137px;
 }
+
+#featured .cat_slider_item{
+    border-radius: 10px;
+    transition: var(--tran-all-4s);
+    border: 1px solid transparent;
+    padding: 15px 0px 13px 0px;
+    margin-bottom: 20px;
+ 
+}
+
+#featured .catg_thum .cat_slider_item:hover{
+    border-color:  var(--text-hlt-clr);
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 5%);
+}
+#featured .catg_thum .cat_slider_item:hover h5{
+    color: var(--hlt-color);
+    transition: var(--tran-all-4s);
+}
+#featured .catg_thum .cat_slider_item p{
+    font-size: 14px;
+    font-family: var(--Lato);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--hlt-color);
+}
+
+#featured .feat_item_img{
+    transition: var(--tran-all-4s);
+    display: inline-block;
+    max-width: 80px;
+    margin-bottom: 10px;
+    
+}
+
+#featured .feat_item_img:hover{
+    transform: scale(1.1);
+}
+
+
+#featured .catg_thum .cat_slider_item h5{
+    font-size: 16px;
+}
+
+
+
 .featured_arrow{
     top :-44px;
     right: 12px;
@@ -657,7 +703,3 @@ form input {
 .featured_arrow.fa-long-arrow-alt-left{
     right:65px;
 }
-
-
-
-
