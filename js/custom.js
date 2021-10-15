@@ -18,8 +18,8 @@ $(function (){
         fade: true,
         autoplay: true,
         autoplaySpeed:1500,
-        prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
-        nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
+        prevArrow:"<i class='fas fa-chevron-left banner_arrow slide_arrow'></i>",
+        nextArrow:"<i class='fas fa-chevron-right banner_arrow slide_arrow'></i>",
     })
     //slide
       $('.clickable').on('click',function(){
@@ -29,5 +29,26 @@ $(function (){
       
 
       })
-   
+      $(window).on('scroll',function(){
+        //script for sticy menu;
+        var scroolpostion=$(window).scrollTop();
+        if(scroolpostion > 0){
+            $('.menu').addClass('stickynav');
+        }else{
+            $('.menu').removeClass('stickynav');
+        }
+    
+        
+        
+    })
+    //featured slider strat
+    $('.ft_catg_slider').slick({
+        slidesToShow: 10,
+        slidesToScroll: 2,
+        speed: 500,
+        prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
+        nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
+        
+    })
+
 })
