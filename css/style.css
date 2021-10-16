@@ -733,16 +733,19 @@ form input {
     margin-bottom: 60px;
     transition:all linear .3s;
     border-right: 8px solid transparent;
+    width: 110px;
 
-
-}
-#product_banner .helper h3{
-    padding-bottom:29px ;
 }
 #product_banner .pruduct_item a:hover{
     background-color: #FDC040;
+    width: 120px;
     
 }
+
+#product_banner .helper h3{
+    padding-bottom:29px ;
+}
+
 
 /*product_banner section end*/
 /* section strat*/
