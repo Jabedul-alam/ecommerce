@@ -705,6 +705,7 @@ form input {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    min-height: 255px;
 
 }
 #product_banner .pruduct_item h3{
