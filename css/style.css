@@ -807,7 +807,7 @@ form input {
     opacity: 0;
     visibility: hidden;
     transition: var(--tran-all-4s);
-    width: 65%;
+    width: 54%;
 }
 #popular .thmu_icons ul li{
     display: inline-block;
