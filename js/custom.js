@@ -52,5 +52,28 @@ $(function (){
         
     })
       //featured slider end
-
+    //sells slider js strat
+    $('.sells_slide').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        speed: 500,
+        prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
+        nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
+        
+    })
+    $('.sells_slide_2').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        speed: 500,
+        prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
+        nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
+        
+    })
 })
+
+$('[data-countdown]').each(function() {
+    var $this = $(this), finalDate = $(this).data('countdown');
+    $this.countdown(finalDate, function(event) {
+      $this.html(event.strftime('<ul class="d-flex"><li class="w-25"><span> %D</span><span>Dayes</span></li><li class="w-25"><span>%H</span><span>Hours</span></li><li class="w-25"><span>%M</span><span>Min</span></li><li class="w-25"><span>%S</span><span>Sce</span></li> </ul>'));
+    });
+  });
