@@ -1386,6 +1386,58 @@ input:focus-visible {
 }
 /* facility section end*/
  /* contact section strat*/
- #contact{
-     padding: 25px 0;
+ #contact .contact_container{
+    padding: 25px 0;
+    border-bottom: 1px solid #ececec;
  }
+ #contact .contact_item{
+        min-width: 300px;
+        font-size: 15px;
+
+ }
+ #contact .contact_way{
+     margin-right: 50px;
+ }
+ #contact .logo{
+	margin-bottom: 30px;
+	padding-right: 84px;
+}
+#contact .footer-list li a {
+	font-size: 15px;
+	color: #253D4E;
+	display: block;
+    transition: var(--tran-all-4s);
+}
+#contact .footer-list li {
+	display: block;
+	margin: 0 0 13px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#contact h4{
+    margin: 15px 0 20px 0;
+    font-size: 24px;
+}
+#contact .footer-list li:hover a {
+	transform: translateX(5px);
+    color: var(--hlt-color);
+}
+.download-app img{
+    padding-right: 10px;
+}
+#contact .download-app{
+    margin: 25px 0 33px;
+}
+#contact .payment{
+    margin-bottom: 20px;
+}
+
+#contact .cart-pay{
+    padding-right: 40px;
+}
+
+/*contact section end*/
+/*copyright section strat*/
+#copyright{
+    padding-top: 30px;
+}
