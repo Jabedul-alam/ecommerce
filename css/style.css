@@ -54,6 +54,13 @@ h1,h2,h3,h4,h5,h6{
 ul{
     list-style-type: none;
 }
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #7E7E7E;
+}
 .form-control:focus,
 .btn:focus,
 .form-select:focus{
@@ -1440,3 +1447,41 @@ input:focus-visible {
 #copyright{
     padding-top: 30px;
 }
+.hotline p {
+	color: #3BB77E;
+	font-size: 26px;
+	font-weight: 700;
+	font-family: "Quicksand", sans-serif;
+	display: block;
+	line-height: 1;
+}
+.hotline p span {
+	font-weight: 500;
+	font-size: 12px;
+	font-family: "Lato", sans-serif;
+	color: #7E7E7E;
+	display: block;
+	letter-spacing: 0.9px;
+}
+#copyright .hotline i{
+    min-width: 10px;
+    margin-right: 12px;
+    max-width: 30px;
+}
+.mobile-social-icon a {
+	text-align: center;
+	font-size: 14px;
+	margin-right: 5px;
+	transition-duration: 0.5s;
+	height: 30px;
+	width: 30px;
+	background: #3BB77E;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+#copyright h6{
+    display: inline-block;
+    margin-right: 15px;
+ }
