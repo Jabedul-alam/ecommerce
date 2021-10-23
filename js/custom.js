@@ -74,6 +74,6 @@ $(function (){
 $('[data-countdown]').each(function() {
     var $this = $(this), finalDate = $(this).data('countdown');
     $this.countdown(finalDate, function(event) {
-      $this.html(event.strftime('<ul class="d-flex"><li class="w-25"><span> %D</span><span>Dayes</span></li><li class="w-25"><span>%H</span><span>Hours</span></li><li class="w-25"><span>%M</span><span>Min</span></li><li class="w-25"><span>%S</span><span>Sce</span></li> </ul>'));
+      $this.html(event.strftime('<ul class="d-flex"><li class="w-25"><span class="timer"> %D</span><span>Dayes</span></li><li class="w-25"><span class="timer">%H</span><span>Hours</span></li><li class="w-25"><span class="timer">%M</span><span>Min</span></li><li class="w-25"><span class="timer">%S</span><span>Sce</span></li> </ul>'));
     });
   });
