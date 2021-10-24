@@ -57,8 +57,8 @@ $(function (){
         slidesToShow: 4,
         slidesToScroll: 1,
         speed: 500,
-        prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
-        nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
+        prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow sells_arrow'></i>",
+        nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow sells_arrow'></i>",
         
     })
     $('.sells_slide_2').slick({
@@ -68,6 +68,9 @@ $(function (){
         prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
         nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
         
+    })
+    $(window).on('load',function(){
+        $('#preloader').fadeOut(1000);
     })
 })
 
