@@ -370,6 +370,7 @@ header .middle_header .selc_opt::after {
 /*navbar section strat*/
 .menu{
 border-bottom: 1px solid #ececec;
+width: 100%;
 }
 .menu .main-menu > ul >li {
     padding: 0 22px;
@@ -764,9 +765,6 @@ form input {
 .nav.nav-tabs{
     border: none;
 }
-#popular .product_dtls{
-     width: 20%;
- }
 #popular .popular_pro_wraper{
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 15px;
@@ -800,7 +798,7 @@ form input {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    transform: scale();
+    transform: scale(1);
     transition: var(--tran-all-4s);
 }
 #popular .popular_pro_wraper:hover .hover_img{
@@ -1007,7 +1005,7 @@ form input {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    transform: scale();
+    transform: scale(1);
     transition: var(--tran-all-4s);
 }
 #sells .popular_pro_wraper:hover .hover_img{
@@ -1296,7 +1294,7 @@ form input {
 #deals_chart .chart_item{
     margin-bottom: 20px;
     transition:all linear .3s;
-    transform: translateY();
+    transform: translateY(0);
 }
 #deals_chart .chart_item:hover{
     transform: translateY(-5px);
@@ -1376,10 +1374,6 @@ input:focus-visible {
     padding: 20px 10px;
     border-radius: 10px;
  }
- #facility .facility_wraper{
-    padding-left: 10px;
-    width: 20%;
-}
 #facility .facility_item h4{
     color: #242424;
     font-size: 18px;
@@ -1502,4 +1496,4 @@ input:focus-visible {
    justify-content: center;
    align-items: center;
 }
-#preloader img
+

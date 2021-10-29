@@ -43,13 +43,20 @@ $(function (){
     //featured slider strat
     $('.ft_catg_slider').slick({
         slidesToShow: 10,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         speed: 500,
         loop :true,
         infinite:true,
         prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
         nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
-        
+        responsive: [
+            {
+                breakpoint:1025,
+                settings: {
+                    slidesToShow: 4,
+                  }
+            },
+        ]
     })
       //featured slider end
     //sells slider js strat
@@ -59,6 +66,15 @@ $(function (){
         speed: 500,
         prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow sells_arrow'></i>",
         nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow sells_arrow'></i>",
+        responsive: [
+            {
+                breakpoint:1025,
+                settings: {
+                    slidesToShow: 3,
+                  }
+            },
+        ]
+
         
     })
     $('.sells_slide_2').slick({
@@ -67,6 +83,7 @@ $(function (){
         speed: 500,
         prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
         nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
+        responsive
         
     })
     $(window).on('load',function(){
