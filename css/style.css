@@ -1150,7 +1150,13 @@ form input {
     background-color: #FDC040;
      transform: translatey(-5px);
  }
- 
+ .mobile-promotion{
+     display: none;
+    padding: 7px 0;
+    text-align: center;
+    background: #3BB77E;
+    color: #fff;
+ }
 
  #sells .sold_bar{
     height: 5px;

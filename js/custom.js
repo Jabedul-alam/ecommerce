@@ -56,6 +56,18 @@ $(function (){
                     slidesToShow: 4,
                   }
             },
+            {
+                breakpoint:768,
+                settings: {
+                    slidesToShow: 3,
+                  }
+            },
+            {
+                breakpoint:481,
+                settings: {
+                    slidesToShow: 2,
+                  }
+            },
         ]
     })
       //featured slider end
@@ -83,7 +95,6 @@ $(function (){
         speed: 500,
         prevArrow:" <i class='fas fa-long-arrow-alt-left slide_arrow featured_arrow'></i>",
         nextArrow:" <i class='fas fa-long-arrow-alt-right slide_arrow featured_arrow'></i>",
-        responsive
         
     })
     $(window).on('load',function(){
