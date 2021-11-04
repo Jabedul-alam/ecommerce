@@ -1,6 +1,7 @@
 
-/*lg responsive*/
-/*section_header lg responsive */
+/*custom responsive strat*/
+
+/*section_header custom responsive */
 @media (max-width: 1024px) { 
    #featured .section_header,
    #popular .section_header{
@@ -19,6 +20,7 @@
    #contact .contact_way {
       margin-right: 0;
   }
+
 }
 /* popular section custom responsive*/
 @media (min-width: 1200px){
@@ -31,10 +33,35 @@
    }
    
 }
-
+/*banner custom responsive*/
+@media (max-width: 991px){
+   #banner .banner-content h1 {
+      font-size: 46px;
+      font-weight: 700;
+      margin-bottom: 25px;
+   }
+   #banner .banner-content p {
+      font-size: 22px;
+      margin-bottom: 40px;
+   }
+   .banner_dtls {
+      margin: 60px 0;
+   }
+   }
+   @media (min-width: 768px){
+      .banner_arrow{
+         display: block;
+      }
+   }
+   @media (max-width: 480px){
+      .mobile-promotion{
+         display: block;
+      }
+   }
+/*custom responsive end*/
 /* lg responsive strat*/
 @media (min-width: 992px) and (max-width: 1199.98px){
-   /* lg responsive */
+   /* lg responsive top header strat*/
    .menu .main-menu > ul > li {
       padding: 0px 15px;
    }
@@ -44,6 +71,10 @@
    #contact .contact_way {
       margin-right: 0;
   }
+  header .top_header ul li {
+	margin-right: 10px;
+}
+ /* lg responsive top header end*/
 }
 /* lg responsive end*/
 /*md respnsive strat */

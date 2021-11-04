@@ -16,6 +16,12 @@ Theme Name: Nest
 5 product_banner
 6) popular
 7)Sells
+8)deals
+9)deals_chart
+10)banner_bottom
+11)facility
+12)contact
+13)copyright
 
 
 
@@ -612,6 +618,7 @@ form input {
 .banner_arrow {
     bottom: 50%;
     opacity: 0; bottom: 50%;
+    display: none;
 }
 
 #banner:hover .banner_arrow{
