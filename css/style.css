@@ -292,6 +292,9 @@ header .middle_header .selc_opt::after {
     top: -5px;
     color: #fff;
  }
+ .middle_header .row {
+    justify-content: center;
+ }
 /*middle header section end */
 
 
@@ -578,7 +581,7 @@ width: 100%;
     font-size: 72px;
     line-height: 1;
     color: var(--text-hlt-clr);
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: 40px;
 }
 #banner .banner-content p {
@@ -726,6 +729,7 @@ form input {
     background-repeat: no-repeat;
     border-radius: 10px;
     min-height: 255px;
+    height: 100%;
 
 }
 #product_banner .pruduct_item h3{
