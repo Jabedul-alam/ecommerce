@@ -143,9 +143,58 @@
 /*sm resonsive end*/
 /*mobile responsive strat */
 @media (max-width: 575.98px){
+   /*banner responsive strat*/
+   #banner .banner-content h1 {
+      font-size: 32px;
+   }
+   #banner .banner-content p {
+      font-size: 16px;
+   }
+   .banner_dtls {
+      padding-left: 40px;
+   }
+   #banner .banner-content form button {
+      padding: 13px 20px;
+    
+   }
+   /*banner responsive end*/
 
+   .section_header h2 {
+      font-size: 28px;
+   }
+   .section_header ul li a {
+      font-size: 14px;
+   }
+   /*product_banner responsive strat*/
+
+   #product_banner .pruduct_item h3 {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 38px 125px 0 40px;
+   }
+   #product_banner .pruduct_item {
+      min-height: 170px;
+   }
+   .shop_btn {
+      margin-bottom: 30px;
+   }
+   #sells .section_header{
+      flex-wrap: wrap;
+   }
+   #sells .section_header ul{
+      width: 100%;
+   }
+   #deals .section_header ul{
+      display: none;
+   }
+   #banner_bottom .banner-content h2 {
+      font-size: 22px;
+   }
+   #banner_bottom .banner-content p {
+      font-size: 14px;
+      margin-bottom: 25px;
+   }
 }
-
 /*mobile responsive end */
 @media (max-width: 480px){
    .mobile-promotion{
